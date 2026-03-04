@@ -12,7 +12,7 @@ public class TaskResponseDTO {
 
     private Long id;
 
-    private String task;
+    private String taskName;
 
     private String description;
 
@@ -23,7 +23,7 @@ public class TaskResponseDTO {
     private Priority priority;
     public TaskResponseDTO(Long id, String taskName, String description, LocalDate dueDate, Boolean done, Priority priority) {
         this.id = id;
-        this.task = taskName;
+        this.taskName = taskName;
         this.description = description;
         this.dueDate = dueDate;
         this.done = done;
